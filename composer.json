@@ -1,15 +1,8 @@
 {
     "name": "psrphp/psr15",
-    "description": "Psr15的请求处理器实现",
-    "type": "library",
     "license": "GPL-3.0",
     "require": {
         "psr/http-server-handler": "^1.0",
         "psr/http-server-middleware": "^1.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "PsrPHP\\Psr15\\": "src/"
-        }
     }
 }
